@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprehensive Study Notes</title>
+    <link rel="stylesheet" href="html.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 Comprehensive Study Notes</h1>
+            <p class="subtitle">Master multiple subjects with organized, concise notes</p>
+        </header>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="🔍 Search notes by topic, keyword, or category...">
+        </div>
+
+        <div class="filter-tabs">
+            <button class="filter-btn active" onclick="filterNotes('all')">All Topics</button>
+            <button class="filter-btn" onclick="filterNotes('programming')">Programming</button>
+            <button class="filter-btn" onclick="filterNotes('science')">Science</button>
+            <button class="filter-btn" onclick="filterNotes('math')">Mathematics</button>
+            <button class="filter-btn" onclick="filterNotes('history')">History</button>
+            <button class="filter-btn" onclick="filterNotes('language')">Language</button>
+            <button class="filter-btn" onclick="filterNotes('business')">Business</button>
+        </div>
+
+        <div id="notesContainer" class="notes-grid"></div>
+    </div>
+
+    <script src="html.js"></script>
+
+</body>
+
+</html>
